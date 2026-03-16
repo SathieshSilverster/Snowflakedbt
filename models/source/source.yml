@@ -1,0 +1,10 @@
+version:
+
+sources:
+  - name: raw
+    database: snowflakedbt
+    schema: RAW
+    tables:
+      - name: bookings
+      - name: listings
+      - name: hosts
